@@ -14,15 +14,15 @@ h2{
     font-family: var(--default-font-family);
     font-weight: 200;
 }
-p{
+span{
+    color: #8dc6ff;
+}
+.hero-paragraph {
     font-size: 15px;
     font-family: var(--default-font-family);
     font-weight: 200;
     opacity: 0.6;
-}
 
-span{
-    color: #8dc6ff;
 }
 .logo{
     width: 50px;
@@ -41,11 +41,10 @@ span{
     margin-right: auto;
     border-radius: 25px;
     width: 500px;
-    margin-top: 55px;
 }
 
 .main-description{
-    padding-top: 230px;
+    padding-top: 150px;
     margin-left: auto;
     
 }
@@ -57,5 +56,17 @@ span{
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+    
+}
 
+.kali-image{
+    width: 350px;
+    background-color: var(--secondary-color);
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image{
+background-color: var(--secondary-color);
 }
