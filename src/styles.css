@@ -91,6 +91,9 @@ span{
     font-family: 28px;
 
 }
+.navbar{
+    padding-left: 3rem;
+}
 
 @media(max-width: 576px){
     .project-link{
@@ -104,7 +107,7 @@ span{
         padding: 0px 0px;
     }
 
-    .navbar-brand{
+    .navbar{
         padding-left: 0px;
     }
 
