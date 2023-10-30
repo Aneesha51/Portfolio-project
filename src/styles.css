@@ -1,6 +1,7 @@
-body{
+:root{
     --primary-color:#8DC6FF ;
     --secondary-color: #e4f1fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0,.3);
     --head-font-family:'Playfair Display', serif;
     --default-font-family:'Merriweather', serif;
 }
@@ -49,24 +50,58 @@ span{
     
 }
 
-.btn-branding {
+.primary-link {
     background-color: var(--primary-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+    text-transform: capitalize;
+    box-shadow: var(--box-shadow);
     
 }
 
-.kali-image{
-    width: 350px;
+.image{
     background-color: var(--secondary-color);
-    margin-left: 150px;
+}
+
+.kali-image {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    background-color: var(--primary-color);
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.image{
-background-color: var(--secondary-color);
+
+.description{
+    line-height: 1.9;
+    font-family: var(--default-font-family);
+}
+
+.weather-image{
+    display: block;
+    background-color: var(--secondary-color);
+}
+
+.feature-paragraph{
+    font-family: var(--default-font-family);
+    font-family: 28px;
+
+}
+
+@media(max-width: 576px){
+    .project-link{
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+        
+    }
+
+    .head{
+        padding: 0px 0px;
+    }
+
 }
