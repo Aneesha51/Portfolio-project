@@ -104,4 +104,9 @@ span{
         padding: 0px 0px;
     }
 
+    .nav-brand{
+        padding-left: 0px;
+        
+    }
+
 }
