@@ -40,12 +40,43 @@ span{
     padding: 160px 20px;
 }
 
-.profile-image{
+.avatar-image{
     display: block;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     width: 500px;
+}
+
+.portfolio-image{
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 500px;
+}
+
+.header{
+    margin-top: 30px;
+    font-weight: 900;
+    font-family: var(--head-font-family);
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    font-weight: 600;
+}
+
+.about-section p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--default-font-family);
 }
 
 .main-description{
@@ -109,6 +140,18 @@ span{
 
     .head{
         padding: 0px 0px;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .portfolio-image{
+        margin-top: 0px;
+    }
+
+    .about-section h2, p{
+        text-align: center;
     }
 
     .navbar{
