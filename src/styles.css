@@ -6,8 +6,9 @@
     --default-font-family:'Merriweather', serif;
 }
 h1 {
+    margin-top: 50px;
     font-family: var(--head-font-family);
-    font-weight: 400;
+    font-weight: 800;
 
 }
 
@@ -21,6 +22,10 @@ p{
 }
 span{
     color: #8dc6ff;
+}
+
+img{
+    background-color: var(--secondary-color);
 }
 .hero-paragraph {
     font-size: 15px;
@@ -66,13 +71,13 @@ span{
     line-height: 80px;
 }
 
-.about-section h2{
+.content-container h2{
     font-size: 18px;
     font-family: var(--default-font-family);
     font-weight: 600;
 }
 
-.about-section p{
+.content-container p{
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
@@ -99,6 +104,8 @@ span{
 
 .image{
     background-color: var(--secondary-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .kali-image {
@@ -117,6 +124,9 @@ span{
 }
 
 .weather-image{
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 500px;
     display: block;
     background-color: var(--secondary-color);
 }
@@ -128,6 +138,10 @@ span{
 }
 .navbar{
     padding-left: 3rem;
+
+}
+.weather{
+    padding-bottom: 83px;
 }
 
 @media(max-width: 576px){
@@ -150,7 +164,7 @@ span{
         margin-top: 0px;
     }
 
-    .about-section h2, p{
+    .content-container h2, p{
         text-align: center;
     }
 
@@ -158,4 +172,10 @@ span{
         padding-left: 0px;
     }
 
+}
+
+@media(max-width: 768px){
+    .col-md-6{
+        flex: 0 0 auto;
+    }
 }
