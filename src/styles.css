@@ -33,6 +33,9 @@ h4 {
     font-family: var(--default-font-family);
 }
 
+footer{
+    margin: 60px 0;
+}
 .hero-paragraph {
     font-size: 15px;
     font-family: var(--default-font-family);
@@ -48,7 +51,7 @@ h4 {
     text-align: center;
     margin: 0 auto;
     background-color: var(--secondary-color);
-    padding: 160px 20px;
+    padding-bottom: 100px;
 }
 
 .avatar-image{
@@ -77,10 +80,15 @@ h4 {
     line-height: 80px;
 }
 
+.content-container{
+    padding: 60px 20px;
+}
+
 .content-container h2{
     font-size: 18px;
     font-family: var(--default-font-family);
     font-weight: 600;
+    
 }
 
 .content-container p{
@@ -199,6 +207,14 @@ footer .social-links a {
 
     .navbar{
         padding-left: 0px;
+    }
+
+    footer .email-link{
+        margin-top: 10px;
+    }
+
+    footer .social-links a {
+        padding: 10px 14px;
     }
 
 }
